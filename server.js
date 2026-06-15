@@ -89,5 +89,5 @@ app.get("/api/prices", async (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log("server running http://localhost:3000")
-})
+  console.log(`Server is running on port ${PORT}`);
+});
